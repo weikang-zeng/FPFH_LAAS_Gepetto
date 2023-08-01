@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+
+  <world name="bauzil_room">
+    <gravity>0.0 0.0 0.0</gravity> <!-- Stop all from moving :) -->
+
+      <!-- A global light source -->
+      <include>
+        <uri>model://sun</uri>
+      </include>
+
+      <!-- A ground plane -->
+      <include>
+        <uri>model://ground_plane</uri>
+      </include>
+
+      <!-- The Bauzil room of LAAS-CNRS, Toulouse, France -->
+      <include>
+        <uri>model://bauzil_room</uri>
+      </include>
+  </world>
+</sdf>

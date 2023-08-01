@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="bauzil_room">
+    <pose>0 0 0  0 0 0</pose>
+    <static>true</static>
+    <link name="body">
+      <collision name="bauzil_collision">
+        <geometry>
+          <mesh><uri>model://bauzil_room/meshes/bauzil_room_no_floor.stl</uri></mesh>
+        </geometry>
+      </collision>
+      <visual name="bauzil_visual">
+        <geometry>
+          <mesh><uri>model://bauzil_room/meshes/bauzil_room_no_floor.stl</uri></mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
